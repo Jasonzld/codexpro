@@ -172,6 +172,17 @@ After upgrading or changing widget metadata, open the CodexPro app settings in C
 
 ## Install
 
+No npm account is required to use this fork.
+
+Portable Windows release:
+
+```text
+Download codexpro-portable-win-0.28.0.zip from GitHub Releases.
+Unzip it, then run:
+
+.\codexpro.cmd setup
+```
+
 Recommended install:
 
 ```bash

@@ -84,6 +84,12 @@ Fresh-user setup should work with:
 npx @jasonzld/codexpro@latest start
 ```
 
+For users without npm registry access, the GitHub Release portable Windows zip should run with:
+
+```powershell
+.\codexpro.cmd doctor --tunnel none
+```
+
 The terminal must clearly show:
 
 - workspace root
