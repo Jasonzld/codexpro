@@ -13,7 +13,7 @@ CodexPro does not unlock Developer Mode, unlock models, bypass account limits, o
 Install globally once:
 
 ```bash
-npm install -g codexpro
+npm install -g @jasonzld/codexpro
 ```
 
 Then run setup from the repo you want ChatGPT to work on:
@@ -28,7 +28,7 @@ After setup, daily startup from that same repo is:
 codexpro start
 ```
 
-`npx codexpro@latest start` still works as a no-install fallback, but the global install is easier for normal users.
+`npx @jasonzld/codexpro@latest start` still works as a no-install fallback, but the global install is easier for normal users.
 
 ## What do I enable in ChatGPT?
 
@@ -164,12 +164,12 @@ Run `codexpro setup` in each repo and save a profile per workspace.
 
 GitHub Pages gives `owner.github.io` only to the GitHub user or organization named `owner`.
 
-The `codexpro` GitHub username already exists, so this repo cannot use `codexpro.github.io` from the `rebel0789` account.
+The `codexpro` GitHub username already exists, so this fork cannot use `codexpro.github.io`.
 
 The clean GitHub Pages URL for this project is:
 
 ```text
-https://rebel0789.github.io/codexpro/
+https://jasonzld.github.io/codexpro/
 ```
 
 ## Is CodexPro production safe?

@@ -9,18 +9,18 @@
 </p>
 
 <p align="center">
-  <a href="https://www.npmjs.com/package/codexpro"><img alt="npm" src="https://img.shields.io/npm/v/codexpro?style=flat-square"></a>
-  <a href="https://github.com/rebel0789/codexpro/actions"><img alt="CI" src="https://img.shields.io/github/actions/workflow/status/rebel0789/codexpro/ci.yml?branch=main&style=flat-square"></a>
-  <a href="https://github.com/rebel0789/codexpro/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/github/license/rebel0789/codexpro?style=flat-square"></a>
-  <a href="https://rebel0789.github.io/codexpro/"><img alt="Website" src="https://img.shields.io/badge/site-GitHub%20Pages-67e8f9?style=flat-square"></a>
+  <a href="https://www.npmjs.com/package/@jasonzld%2Fcodexpro"><img alt="npm" src="https://img.shields.io/npm/v/@jasonzld%2Fcodexpro?style=flat-square"></a>
+  <a href="https://github.com/Jasonzld/codexpro/actions"><img alt="CI" src="https://img.shields.io/github/actions/workflow/status/Jasonzld/codexpro/ci.yml?branch=main&style=flat-square"></a>
+  <a href="https://github.com/Jasonzld/codexpro/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/github/license/Jasonzld/codexpro?style=flat-square"></a>
+  <a href="https://jasonzld.github.io/codexpro/"><img alt="Website" src="https://img.shields.io/badge/site-GitHub%20Pages-67e8f9?style=flat-square"></a>
 </p>
 
 <p align="center">
-  <a href="https://rebel0789.github.io/codexpro/">Website</a>
+  <a href="https://jasonzld.github.io/codexpro/">Website</a>
   ·
-  <a href="https://github.com/rebel0789/codexpro">Star on GitHub</a>
+  <a href="https://github.com/Jasonzld/codexpro">Star on GitHub</a>
   ·
-  <a href="https://www.npmjs.com/package/codexpro">npm</a>
+  <a href="https://www.npmjs.com/package/@jasonzld%2Fcodexpro">npm</a>
   ·
   <a href="DOMAIN_SETUP.md">Stable URL guide</a>
   ·
@@ -36,7 +36,7 @@ CodexPro is not a rate-limit bypass. It uses ChatGPT's official Developer Mode a
 If one workflow is unavailable and another product surface you already have access to is still available, CodexPro lets you keep working against the same local repo without modifying or evading either product's limits.
 
 ```bash
-npm install -g codexpro
+npm install -g @jasonzld/codexpro
 codexpro setup
 ```
 
@@ -175,7 +175,7 @@ After upgrading or changing widget metadata, open the CodexPro app settings in C
 Recommended install:
 
 ```bash
-npm install -g codexpro
+npm install -g @jasonzld/codexpro
 ```
 
 First run from the repo you want ChatGPT to work on:
@@ -193,7 +193,7 @@ codexpro start
 No-install fallback:
 
 ```bash
-npx codexpro@latest start --root /absolute/path/to/your/repo
+npx @jasonzld/codexpro@latest start --root /absolute/path/to/your/repo
 ```
 
 From source:

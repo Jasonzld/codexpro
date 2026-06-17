@@ -81,7 +81,7 @@ Use CodexPro. Run bash with pwd, then run bash with a blocked command. Report bo
 Fresh-user setup should work with:
 
 ```bash
-npx codexpro@latest start
+npx @jasonzld/codexpro@latest start
 ```
 
 The terminal must clearly show:

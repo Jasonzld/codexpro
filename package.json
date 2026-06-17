@@ -1,17 +1,17 @@
 {
-  "name": "codexpro",
+  "name": "@jasonzld/codexpro",
   "version": "0.28.0",
   "description": "A local MCP/App SDK-style connector that lets ChatGPT inspect, edit, and hand off work to Codex inside a local dev workspace.",
   "type": "module",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rebel0789/codexpro.git"
+    "url": "git+https://github.com/Jasonzld/codexpro.git"
   },
   "bugs": {
-    "url": "https://github.com/rebel0789/codexpro/issues"
+    "url": "https://github.com/Jasonzld/codexpro/issues"
   },
-  "homepage": "https://rebel0789.github.io/codexpro/",
+  "homepage": "https://jasonzld.github.io/codexpro/",
   "keywords": [
     "mcp",
     "chatgpt",
