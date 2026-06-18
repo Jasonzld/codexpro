@@ -708,9 +708,10 @@ function waitForCloudflareUrl(child, timeoutMs = 45000) {
       const text = String(chunk);
       buffer += text;
       const match = buffer.match(re);
-      if (match?.[0]) {
+      const publicUrl = match?.find((url) => !url.includes('://api.trycloudflare.com'));
+      if (publicUrl) {
         clearTimeout(timer);
-        resolve(match[0]);
+        resolve(publicUrl);
       }
     };
     child.stdout.on('data', onData);
